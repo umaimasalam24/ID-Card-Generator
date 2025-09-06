@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ID Card Generator</title>
+</head>
+<body>
+    <div class="container">
+        
+            <h1>ID Card Generator</h1>
+            Name:
+            <input type="text" id="name" placeholder="Enter Your Name: " required>
+            Father Name:
+            <input type="text" id="fathername" placeholder="Enter Your Father Name: " required>
+            Email:
+            <input type="email" id="email" placeholder="Enter You Email: " required>
+            Image:
+            <input type="file" id="image" placeholder="Select Your Image: " required>
+            <button id="button">Generate ID</button>
+        <div id="hidden">
+    <img src="" alt="" id="inputimage" width="100px">
+    Name: 
+    <input type="text" id="inputname" readonly>
+    Father Name: 
+    <input type="text" id="inputfathername" readonly>
+    Email:
+    <input type="email" id="inputemail" readonly>
+
+        </div>
+    </div>
+        <script src="app.js"></script>
+
+</body>
+</html>
